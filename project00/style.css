@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-image:url(./Image.jpg) ;
+    background-size: cover;
+    
+
+}
+
+.container{
+     
+    margin: 20px 0;
+    position:relative;
+}
+
+.container label{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50px;
+    left:15px;
+    pointer-events: none;
+    color:rgb(255, 255, 255);
+    padding: 0 5px;
+    transition: 0.5s;
+}
+.container input{
+    width:200px;
+    height:60px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid rgb(220, 223, 223);
+    background: transparent;
+    border-radius:5px;
+}
+
+.container input:focus~label,
+.container input:valid~label{
+    top:-1px;
+    left: 15px;
+    font-size: 13px;
+}
+
+input[type = "text"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(246, 246, 249);
+}
+
+input[type = "password"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(246, 246, 249);
+}
+
+input[type = "email"]{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(246, 246, 249);
+}
+
+.main-container{
+    width: 300px;
+    padding:20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.155);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+}
+p{
+    color:rgb(246, 246, 249);
+}

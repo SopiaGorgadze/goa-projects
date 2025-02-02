@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.main{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.pattern{
+    position: relative;
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+     
+}
+.pattern svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:175px;
+}
+.img img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.white{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+}
+.h1c{
+    position: absolute;
+    bottom: 60px;
+    gap: 10px;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+     
+}
+.h1c .num{
+    font-weight: 300;
+    color: rgb(121, 122, 127);
+}
+.white2{
+    border-top: 1px solid rgb(176, 176, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 150px;
+}
+.white p{
+    position: absolute;
+    bottom: 40px;
+    color: rgb(121, 122, 127);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 20px;
+    color: rgb(41, 42, 60);
+}
+.text p{
+    font-size: 14px;
+    color: rgb(41, 42, 60);
+}

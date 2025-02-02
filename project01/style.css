@@ -1,0 +1,84 @@
+
+*{
+    font-family: "Bebas Neue", sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(./Image\ 1.jpg);
+}
+
+div{
+    text-shadow: 10px 0px 20px;
+    display:flex;
+    justify-content: center;
+    gap: 400px;
+    padding-top: 25px;
+}
+
+img{
+    display: flex;
+    width:100px;
+    margin: 0 auto;
+}
+.name{
+   
+    color: beige;
+    font-size:60px;
+    transition:color 0.3s;
+}
+.name:hover{
+    color: #890303;
+}
+
+.phrase{
+    padding-top: 20px;
+    color: beige;
+    text-align: right;
+    transition:color 0.3s;
+}
+.phrase:hover{
+    color:#890303;
+}
+
+
+.txt{
+    text-shadow: 10px 0px 20px;
+    text-align: center;
+    color: beige;
+    transition: color 0.3s;
+}
+.txt:hover{
+    color:#890303;
+}
+
+.girl{
+    border: solid 6px #890303;
+    box-shadow: -10px 0px 20px  #890303;
+ 
+    display:flex;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 0px;
+    object-fit: cover;
+}
+.navbar a {
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;  
+    margin-right: 10px;
+    transition: color 0.3s ease; / 
+}
+nav{
+    list-style: none;
+    display: flex;
+}
+
+.navbar a:hover {
+    
+    color: #890303;
+}
